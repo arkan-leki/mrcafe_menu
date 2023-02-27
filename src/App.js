@@ -1,24 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import Menu from './components/MenuList';
+import { FaMapMarkerAlt } from 'react-icons/fa';
+import ItemsContextProvider from "./context/ItemsContext";
+import BottomNav from './components/BottomNav';
+import SocialBar from './components/SocialBar';
+import "react-tooltip/dist/react-tooltip.css";
+import { Tooltip as ReactTooltip } from "react-tooltip";
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ItemsContextProvider>
+      <div className="App " dir='rtl'>
+        <header className="bg-gray-800 shadow-md fixed top-0 w-full">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex justify-between items-center py-4 md:justify-start md:space-x-10">
+              <div className="flex items-center justify-start lg:w-0 lg:flex-1 gap-1">
+                <img
+                  className="h-8 w-8 rounded-full object-cover"
+                  src="/brand.jpg"
+                  alt="Brand Logo"
+                />
+                <span className="ml-2 flex items-center text-xl gap-x-2 text-gray-100">
+                  <h1 className='font-sans font-extrabold'>Mr.Cafe</h1>
+                  <h1 >مستەرکافێ </h1>
+                </span>
+              </div>
+              <h4 className="flex items-center cursor-pointer" id="app-title">
+                <FaMapMarkerAlt color='white' size={25} />
+                <ReactTooltip
+                  anchorId="app-title"
+                  place="bottom"
+                  content="کەلار، ناوبازر تەنیشت مۆتەخانەی ئەڵوەن"
+                />
+              </h4>
+            </div>
+          </div>
+        </header>
+        <div className='text-black h-fulltext-lg mt-16 pb-20' >
+          <SocialBar />
+          <Menu />
+        </div>
+        <BottomNav />
+      </div>
+    </ItemsContextProvider>
+
   );
 }
 

@@ -1,5 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Rudaw';
+  font-size: 1.5rem!important;
+  src: url('./fonts/rudawbold.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/rudawbold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/rudawbold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/rudawbold.svg') format('svg'); /* Legacy iOS */
+}
+
+
 body {
   margin: 0;
+  font-family: 'Rudaw' !important;
+  background-color: lightgray;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

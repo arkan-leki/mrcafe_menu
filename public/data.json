@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "قاوەی مۆکا",
+    "price": "2,000",
+    "image": "https://scontent.fbgw4-4.fna.fbcdn.net/v/t39.30808-6/331955370_906736410752874_2011520285806214483_n.jpg?stp=dst-jpg_p552x414&_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=5LXw1IvCBZYAX-0FLN6&tn=RIp7SHpPowC8lu8t&_nc_ht=scontent.fbgw4-4.fna&oh=00_AfCeDXgLSvXP2cCn6jHskZDEbzEYjKsIbF9J7hu90YeZvg&oe=63FFE840",
+    "timerValue": "0h 02m",
+    "group": "Hot",
+    "timerColor": "#eee"
+  },
+  {
+    "id": 2,
+    "name": "شوکولاتەی دارک",
+    "price": "2,000",
+    "image": "https://scontent.fbgw4-4.fna.fbcdn.net/v/t39.30808-6/331898463_1154787288538182_2236430666459931928_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeH51tNdk99rEJg31Kl9uAyDFG8SNO8Qxn4UbxI07xDGfhN2t2MPcuKIA7LCSx5qI0Csz-F2ozgiwiice_oFV0G4&_nc_ohc=p7Lym0NGNWYAX_NiiSm&_nc_ht=scontent.fbgw4-4.fna&oh=00_AfBFMVW_0WaPxBcJ7Z9eTw6nNMe9aHl2HEEpqMyNd5Z4-w&oe=6401B00B",
+    "timerValue": "10h 20m",
+    "group": "Hot",
+    "timerColor": "#f1c40f"
+  },
+  {
+    "id": 3,
+    "name": "محەلەبی فرنی",
+    "price": 300,
+    "image": "https://scontent.fbgw4-4.fna.fbcdn.net/v/t39.30808-6/331940839_767716738079388_7319266556519907174_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeE9LQX8X_P7HsZ551OY9WF-5bb9Q39Q7Prltv1Df1Ds-vyOoT9B6U3IoKG5eWxfU-Cqj3sctmKg_QxLSf2N5zaU&_nc_ohc=IoZ1AxqXbDEAX-e1ktH&_nc_ht=scontent.fbgw4-4.fna&oh=00_AfAvnRZMxaAYf3WscdcHBdibn7qmmeoeRlsR4f2UjMwsDg&oe=6401040E",
+    "timerValue": "2d 3h 15m",
+    "group": "Cold",
+    "timerColor": "#2ecc71"
+  },
+  {
+    "id": 4,
+    "name": "کافێ لاتێ",
+    "price": 400,
+    "image": "https://scontent.fbgw4-4.fna.fbcdn.net/v/t39.30808-6/331894920_728527205394275_7957541510810559462_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeGWcGy4c9LUK9bJ5dukWKoTckKt-vhV5LhyQq36-FXkuFz17mH27nwH_g04Gfrh0hsXcrvjur9IoP23ayBbBZXW&_nc_ohc=m9q9lovbKA0AX9IY1uH&_nc_ht=scontent.fbgw4-4.fna&oh=00_AfC_6wtcra9NOg7pa7wah-xiziVC05HFJlstc3QsrMjAXQ&oe=64010125",
+    "timerValue": "1h 10m",
+    "group": "Cold",
+    "timerColor": "#3498db"
+  }
+]
