@@ -10,7 +10,7 @@ root.render(
     <App />
   </React.StrictMode>
 );
-document.title = 'Mr.Cafe Menu';
+// document.title = 'Mr.Cafe Menu';
 document.body.style.backgroundImage = "url('/bg.png')";
 
 // If you want to start measuring performance in your app, pass a function
