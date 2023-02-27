@@ -27,14 +27,14 @@ function App() {
                   <h1 >مستەرکافێ </h1>
                 </span>
               </div>
-              <h4 className="flex items-center cursor-pointer" id="app-title">
+              <a href='https://vm.tiktok.com/ZMYU2QNEs/' className="flex items-center cursor-pointer" id="app-title">
                 <FaMapMarkerAlt color='white' size={25} />
                 <ReactTooltip
                   anchorId="app-title"
                   place="bottom"
                   content="کەلار، ناوبازر تەنیشت مۆتەخانەی ئەڵوەن"
                 />
-              </h4>
+              </a>
             </div>
           </div>
         </header>

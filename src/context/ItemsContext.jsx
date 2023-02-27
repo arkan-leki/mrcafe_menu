@@ -27,7 +27,7 @@ const ItemsContextProvider = (props) => {
     }, [])
 
     const filterItems = (data) => {
-        if (data === '0')
+        if (data === null)
             return setItems(itemsTemp);
         setItems(itemsTemp.filter((item) =>
             item.group === data

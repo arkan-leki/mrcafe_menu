@@ -10,7 +10,7 @@ const ProductCard = ({ product }) => {
                     <img
                         src={`${product.image}`}
                         alt="product"
-                        className="w-full rounded-sm"
+                        className="w-full rounded-t-lg"
                     />
                 </a>
             </div>

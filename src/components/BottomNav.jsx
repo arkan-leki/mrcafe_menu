@@ -1,16 +1,20 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { FaCoffee, FaIceCream } from 'react-icons/fa';
 import { ItemsContext } from "../context/ItemsContext";
 
 const BottomNav = () => {
     const { groups, setItemsGroup } = useContext(ItemsContext)
 
-    const [activeNavItem, setActiveNavItem] = useState('Home');
+    const [activeNavItem, setActiveNavItem] = useState('Hot');
 
     const handleItemClick = (item) => {
         setActiveNavItem(item);
-        setItemsGroup(item)
     };
+
+    useEffect(() => {
+        setItemsGroup(activeNavItem)
+    }, [activeNavItem, setItemsGroup])
+
 
     return (
         <nav className="fixed bottom-0 w-full bg-gray-900">
