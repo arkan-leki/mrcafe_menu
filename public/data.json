@@ -3,7 +3,7 @@
     "id": 1,
     "name": "قاوەی مۆکا",
     "price": "2,000",
-    "image": "https://scontent.fbgw4-4.fna.fbcdn.net/v/t39.30808-6/331955370_906736410752874_2011520285806214483_n.jpg?stp=dst-jpg_p552x414&_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=5LXw1IvCBZYAX-0FLN6&tn=RIp7SHpPowC8lu8t&_nc_ht=scontent.fbgw4-4.fna&oh=00_AfCeDXgLSvXP2cCn6jHskZDEbzEYjKsIbF9J7hu90YeZvg&oe=63FFE840",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-w/28/5a/e0/52/mocha.jpg",
     "timerValue": "0h 02m",
     "group": "Hot",
     "timerColor": "#eee"
@@ -34,5 +34,14 @@
     "timerValue": "1h 10m",
     "group": "Cold",
     "timerColor": "#3498db"
+  },
+  {
+    "id": 5,
+    "name": "قاوەی مستەرکافێ",
+    "price": "2,000",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-w/28/5a/e5/3e/mrcafe-special.jpg",
+    "timerValue": "0h 02m",
+    "group": "Hot",
+    "timerColor": "#eee"
   }
 ]
