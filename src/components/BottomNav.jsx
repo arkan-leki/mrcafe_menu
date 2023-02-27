@@ -21,7 +21,7 @@ const BottomNav = () => {
                         className={activeNavItem === group ? 'text-gray-300 hover:text-white cursor-pointer bg-slate-700 w-3/4 py-3 text-center text-lg' : 'text-gray-300 hover:text-white cursor-pointer w-3/4 py-3 text-center text-lg'}
                         onClick={() => handleItemClick(group)}
                     >
-                        {group === 'Cold' && <FaIceCream size={28} className='mx-auto' />}
+                        {group === 'Cold' && <image src='/coffee.png' className='w-10' />}
                         {group === 'Hot' && <FaCoffee size={28} className='mx-auto' />}
                     </li>
                 ))}

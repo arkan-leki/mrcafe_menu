@@ -4,7 +4,7 @@ import React from "react";
 
 const ProductCard = ({ product }) => {
     return (
-        <div className="flex flex-col justify-center items-start p-3 bg-green-600 rounded-lg shadow-lg">
+        <div className="flex flex-col justify-center items-start p-3 bg-[#2ab098] rounded-lg shadow-lg">
             <div className="relative">
                 <a href={`/bid/products/product_details/${product.id}`}>
                     <img
