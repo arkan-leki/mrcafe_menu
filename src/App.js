@@ -12,7 +12,7 @@ function App() {
 
   return (
     <ItemsContextProvider>
-      <div className="App bg-hero-bg bg-contain bg-local bg-repeat bg-blend-screen" 
+      <div className="min-h-screen bg-hero-bg bg-contain bg-local bg-repeat bg-blend-screen" 
       dir='rtl'>
         <header className="bg-gray-800 shadow-md">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -39,7 +39,7 @@ function App() {
             </div>
           </div>
         </header>
-        <div className='text-black h-fulltext-lg mt-auto pb-20 ' >
+        <div className='text-black h-full text-lg mt-auto  ' >
           <SocialBar />
           <Menu />
         </div>
