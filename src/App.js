@@ -12,8 +12,9 @@ function App() {
 
   return (
     <ItemsContextProvider>
-      <div className="App " dir='rtl'>
-        <header className="bg-gray-800 shadow-md fixed top-0 w-full z-50">
+      <div className="App bg-hero-bg bg-contain bg-local bg-repeat bg-blend-screen" 
+      dir='rtl'>
+        <header className="bg-gray-800 shadow-md">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center py-4 md:justify-start md:space-x-10">
               <div className="flex items-center justify-start lg:w-0 lg:flex-1 gap-1">
@@ -38,7 +39,7 @@ function App() {
             </div>
           </div>
         </header>
-        <div className='text-black h-fulltext-lg mt-16 pb-20' >
+        <div className='text-black h-fulltext-lg mt-auto pb-20 ' >
           <SocialBar />
           <Menu />
         </div>
