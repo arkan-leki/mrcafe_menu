@@ -39,7 +39,7 @@ function App() {
             </div>
           </div>
         </header>
-        <div className='text-black h-full text-lg mt-auto  ' >
+        <div className='text-black h-full text-lg mt-auto pb-20 ' >
           <SocialBar />
           <Menu />
         </div>
