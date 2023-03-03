@@ -3,45 +3,63 @@
     "id": 1,
     "name": "قاوەی مۆکا",
     "price": "2,000",
-    "image": "https://media-cdn.tripadvisor.com/media/photo-w/28/5a/e0/52/mocha.jpg",
-    "timerValue": "0h 02m",
-    "group": "Hot",
-    "timerColor": "#eee"
+    "image": "/images/image1.png",
+    "group": "Cold"
   },
   {
     "id": 2,
     "name": "شوکولاتەی دارک",
     "price": "2,000",
-    "image": "https://scontent.fbgw4-4.fna.fbcdn.net/v/t39.30808-6/331898463_1154787288538182_2236430666459931928_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeH51tNdk99rEJg31Kl9uAyDFG8SNO8Qxn4UbxI07xDGfhN2t2MPcuKIA7LCSx5qI0Csz-F2ozgiwiice_oFV0G4&_nc_ohc=p7Lym0NGNWYAX_NiiSm&_nc_ht=scontent.fbgw4-4.fna&oh=00_AfBFMVW_0WaPxBcJ7Z9eTw6nNMe9aHl2HEEpqMyNd5Z4-w&oe=6401B00B",
-    "timerValue": "10h 20m",
-    "group": "Hot",
-    "timerColor": "#f1c40f"
+    "image": "/images/image2.png",
+    "group": "Hot"
   },
   {
     "id": 3,
     "name": "محەلەبی فرنی",
     "price": 300,
-    "image": "https://scontent.fbgw4-4.fna.fbcdn.net/v/t39.30808-6/331940839_767716738079388_7319266556519907174_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeE9LQX8X_P7HsZ551OY9WF-5bb9Q39Q7Prltv1Df1Ds-vyOoT9B6U3IoKG5eWxfU-Cqj3sctmKg_QxLSf2N5zaU&_nc_ohc=IoZ1AxqXbDEAX-e1ktH&_nc_ht=scontent.fbgw4-4.fna&oh=00_AfAvnRZMxaAYf3WscdcHBdibn7qmmeoeRlsR4f2UjMwsDg&oe=6401040E",
-    "timerValue": "2d 3h 15m",
-    "group": "Cold",
-    "timerColor": "#2ecc71"
+    "image": "/images/image3.png",
+    "group": "Hot"
   },
   {
     "id": 4,
-    "name": "کافێ لاتێ",
-    "price": 400,
-    "image": "https://scontent.fbgw4-4.fna.fbcdn.net/v/t39.30808-6/331894920_728527205394275_7957541510810559462_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeGWcGy4c9LUK9bJ5dukWKoTckKt-vhV5LhyQq36-FXkuFz17mH27nwH_g04Gfrh0hsXcrvjur9IoP23ayBbBZXW&_nc_ohc=m9q9lovbKA0AX9IY1uH&_nc_ht=scontent.fbgw4-4.fna&oh=00_AfC_6wtcra9NOg7pa7wah-xiziVC05HFJlstc3QsrMjAXQ&oe=64010125",
-    "timerValue": "1h 10m",
-    "group": "Cold",
-    "timerColor": "#3498db"
+    "name": "قاوەی مۆکا",
+    "price": "2,000",
+    "image": "/images/image4.png",
+    "group": "Hot"
   },
   {
     "id": 5,
-    "name": "قاوەی مستەرکافێ",
+    "name": "شوکولاتەی دارک",
     "price": "2,000",
-    "image": "https://media-cdn.tripadvisor.com/media/photo-w/28/5a/e5/3e/mrcafe-special.jpg",
-    "timerValue": "0h 02m",
-    "group": "Hot",
-    "timerColor": "#eee"
+    "image": "/images/image5.png",
+    "group": "Hot"
+  },
+  {
+    "id": 6,
+    "name": "محەلەبی فرنی",
+    "price": 300,
+    "image": "/images/image6.png",
+    "group": "Hot"
+  },
+  {
+    "id": 7,
+    "name": "محەلەبی فرنی",
+    "price": 300,
+    "image": "/images/image7.png",
+    "group": "Hot"
+  },
+  {
+    "id": 8,
+    "name": "محەلەبی فرنی",
+    "price": 300,
+    "image": "/images/image8.png",
+    "group": "Hot"
+  },
+  {
+    "id": 9,
+    "name": "محەلەبی فرنی",
+    "price": 300,
+    "image": "/images/image9.png",
+    "group": "Hot"
   }
 ]

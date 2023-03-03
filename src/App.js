@@ -12,15 +12,15 @@ function App() {
 
   return (
     <ItemsContextProvider>
-      <div className="min-h-screen bg-hero-bg bg-contain bg-local bg-repeat bg-blend-screen" 
-      dir='rtl'>
-        <header className="bg-gray-800 shadow-md">
+      <div className="min-h-screen bg-hero-bg bg-[#0b4030]  bg-contain bg-repeat "
+        dir='rtl'>
+        <header className="bg-[#000] shadow-md bg-opacity-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center py-4 md:justify-start md:space-x-10">
               <div className="flex items-center justify-start lg:w-0 lg:flex-1 gap-1">
                 <img
                   className="h-8 w-8 rounded-full object-cover"
-                  src="/brand.jpg"
+                  src="/brand.png"
                   alt="Brand Logo"
                 />
                 <span className="ml-2 flex items-center text-xl gap-x-2 text-gray-100">

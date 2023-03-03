@@ -5,7 +5,7 @@ import { ItemsContext } from "../context/ItemsContext";
 const BottomNav = () => {
     const { groups, setItemsGroup } = useContext(ItemsContext)
 
-    const [activeNavItem, setActiveNavItem] = useState('Hot');
+    const [activeNavItem, setActiveNavItem] = useState('');
 
     const handleItemClick = (item) => {
         setActiveNavItem(item);
@@ -13,16 +13,15 @@ const BottomNav = () => {
 
     useEffect(() => {
         setItemsGroup(activeNavItem)
-    }, [activeNavItem, setItemsGroup])
-
+    }, [activeNavItem]);
 
     return (
-        <nav className="fixed bottom-0 w-full bg-gray-900">
-            <ul className="flex flex-row justify-center gap-x-2 py-1 px-2">
+        <nav className="fixed bottom-0 w-full bg-black bg-opacity-20 backdrop-blur-md h-12 justify-center">
+            <ul className="flex flex-row-reverse justify-center gap-x-2 py-3 px-2">
                 {groups.map(group => (
                     <li
                         key={group}
-                        className={activeNavItem === group ? 'text-gray-300 hover:text-white cursor-pointer bg-slate-700 w-3/4 py-3 text-center text-lg' : 'text-gray-300 hover:text-white cursor-pointer w-3/4 py-3 text-center text-lg'}
+                        className={activeNavItem === group ? 'text-[#fff] cursor-pointer  w-3/4  text-center text-lg' : 'text-[#ffffff70] cursor-pointer w-3/4  text-center text-lg'}
                         onClick={() => handleItemClick(group)}
                     >
                         {group === 'Cold' && <FaIceCream size={28} className='mx-auto' />}

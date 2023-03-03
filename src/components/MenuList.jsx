@@ -11,7 +11,6 @@ function Menu() {
       {items.map(item => (
         <ProductCard key={item.id} product={item} />
       ))}
-      { console.log(items)}
     </div>
   );
 }
