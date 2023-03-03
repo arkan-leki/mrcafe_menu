@@ -5,7 +5,7 @@ import { ItemsContext } from "../context/ItemsContext";
 const BottomNav = () => {
     const { groups, setItemsGroup } = useContext(ItemsContext)
 
-    const [activeNavItem, setActiveNavItem] = useState('');
+    const [activeNavItem, setActiveNavItem] = useState('Hot');
 
     const handleItemClick = (item) => {
         setActiveNavItem(item);

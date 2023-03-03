@@ -14,7 +14,7 @@ const ItemsContextProvider = (props) => {
             .then(response => response.json())
             .then(data => {
                 console.log(data);
-                setItems(data)
+                setItems(data.filter((sale) => sale.group === 'Hot'))
                 setItemsTemp(data)
                 setGroups(Array.from(new Set(data.map(item => item.group))))
                 // Do something with the retrieved data
