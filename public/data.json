@@ -3,63 +3,154 @@
     "id": 1,
     "name": "قاوەی مۆکا",
     "price": "2,000",
-    "image": "/images/image1.png",
+    "image": "/images/cafe1.png",
     "group": "Cold"
   },
   {
     "id": 2,
     "name": "شوکولاتەی دارک",
     "price": "2,000",
-    "image": "/images/image2.png",
-    "group": "Hot"
+    "image": "/images/cafe2.png",
+    "group": "Cold"
   },
   {
     "id": 3,
     "name": "محەلەبی فرنی",
     "price": 300,
-    "image": "/images/image3.png",
-    "group": "Hot"
+    "image": "/images/cafe3.png",
+    "group": "Cold"
   },
   {
     "id": 4,
     "name": "قاوەی مۆکا",
     "price": "2,000",
-    "image": "/images/image4.png",
-    "group": "Hot"
+    "image": "/images/cafe4.png",
+    "group": "Cold"
   },
   {
     "id": 5,
     "name": "شوکولاتەی دارک",
     "price": "2,000",
-    "image": "/images/image5.png",
-    "group": "Hot"
+    "image": "/images/cafe5.png",
+    "group": "Cold"
   },
   {
     "id": 6,
     "name": "محەلەبی فرنی",
     "price": 300,
-    "image": "/images/image6.png",
-    "group": "Hot"
+    "image": "/images/cafe6.png",
+    "group": "Cold"
   },
   {
     "id": 7,
     "name": "محەلەبی فرنی",
     "price": 300,
-    "image": "/images/image7.png",
-    "group": "Hot"
+    "image": "/images/cafe7.png",
+    "group": "Cold"
   },
   {
     "id": 8,
     "name": "محەلەبی فرنی",
     "price": 300,
-    "image": "/images/image8.png",
-    "group": "Hot"
+    "image": "/images/cafe8.png",
+    "group": "Cold"
   },
   {
     "id": 9,
     "name": "محەلەبی فرنی",
     "price": 300,
-    "image": "/images/image9.png",
+    "image": "/images/cafe9.png",
+    "group": "Cold"
+  },
+  {
+    "id": 10,
+    "name": "محەلەبی فرنی",
+    "price": 300,
+    "image": "/images/cafe10.png",
+    "group": "Cold"
+  },
+  {
+    "id": 11,
+    "name": "قاوەی مۆکا",
+    "price": "2,000",
+    "image": "/images/cafe11.png",
+    "group": "Hot"
+  },
+  {
+    "id": 12,
+    "name": "شوکولاتەی دارک",
+    "price": "2,000",
+    "image": "/images/cafe12.png",
+    "group": "Hot"
+  },
+  {
+    "id": 13,
+    "name": "محەلەبی فرنی",
+    "price": 300,
+    "image": "/images/cafe13.png",
+    "group": "Hot"
+  },
+  {
+    "id": 14,
+    "name": "قاوەی مۆکا",
+    "price": "2,000",
+    "image": "/images/cafe14.png",
+    "group": "Hot"
+  },
+  {
+    "id": 15,
+    "name": "شوکولاتەی دارک",
+    "price": "2,000",
+    "image": "/images/cafe15.png",
+    "group": "Hot"
+  },
+  {
+    "id": 16,
+    "name": "محەلەبی فرنی",
+    "price": 300,
+    "image": "/images/cafe16.png",
+    "group": "Hot"
+  },
+  {
+    "id": 17,
+    "name": "محەلەبی فرنی",
+    "price": 300,
+    "image": "/images/cafe17.png",
+    "group": "Hot"
+  },
+  {
+    "id": 18,
+    "name": "محەلەبی فرنی",
+    "price": 300,
+    "image": "/images/cafe18.png",
+    "group": "Hot"
+  },
+  {
+    "id": 19,
+    "name": "محەلەبی فرنی",
+    "price": 300,
+    "image": "/images/cafe19.png",
+    "group": "Hot"
+  },
+  {
+    "id": 20,
+    "name": "محەلەبی فرنی",
+    "price": 300,
+    "image": "/images/cafe20.png",
+    "group": "Hot"
+  },
+  {
+    "id": 21,
+    "name": "محەلەبی فرنی",
+    "price": 300,
+    "image": "/images/cafe21.png",
+    "group": "Hot"
+  },
+  {
+    "id": 22,
+    "name": "محەلەبی فرنی",
+    "price": 300,
+    "image": "/images/cafe22.png",
     "group": "Hot"
   }
 ]
