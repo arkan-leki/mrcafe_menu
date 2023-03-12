@@ -6,7 +6,9 @@ const ProductCard = ({ product }) => {
     const [imageSrc, setImageSrc] = useState(product.low_image);
 
     const handleImageLoad = () => {
-        setImageSrc(product.image);
+        setTimeout(() => {
+            setImageSrc(product.image);
+          }, 3000);
     };
 
     return (
