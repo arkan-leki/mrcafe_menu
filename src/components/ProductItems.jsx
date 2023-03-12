@@ -1,16 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 
 
 
 const ProductCard = ({ product }) => {
+    const [imageSrc, setImageSrc] = useState(product.low_image);
+
+    const handleImageLoad = () => {
+        setImageSrc(product.image);
+    };
+
     return (
         <div className="flex flex-col justify-center items-start  bg-black bg-opacity-30 text-white rounded-lg drop-shadow-lg">
             <div className="relative select-none noSelect ">
                 {/* <a href={`/bid/products/product_details/${product.id}`}> */}
                 <img
-                    src={`${product.image}`}
+                    src={imageSrc}
                     alt="image url not found"
                     className="w-full rounded-t-lg"
+                    onLoad={handleImageLoad}
                 />
                 {/* </a> */}
             </div>
