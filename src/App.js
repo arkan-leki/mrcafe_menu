@@ -7,7 +7,6 @@ import SocialBar from './components/SocialBar';
 import "react-tooltip/dist/react-tooltip.css";
 import { Tooltip as ReactTooltip } from "react-tooltip";
 
-
 function App() {
 
   return (

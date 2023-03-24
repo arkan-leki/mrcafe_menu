@@ -1,178 +1,178 @@
 [
   {
     "id": 1,
-    "name": "name",
-    "price": "2,000",
-    "image": "/images/cafe1.png",
-    "group": "Cold",
-    "low_image": "/images/resized/cafe1.png"
-  },
-  {
-    "id": 2,
-    "name": "name",
-    "price": "2,000",
-    "image": "/images/cafe2.png",
-    "group": "Cold",
-    "low_image": "/images/resized/cafe2.png"
-  },
-  {
-    "id": 3,
-    "name": "name",
-    "price": 300,
-    "image": "/images/cafe3.png",
-    "group": "Cold",
-    "low_image": "/images/resized/cafe3.png"
-  },
-  {
-    "id": 4,
-    "name": "name",
-    "price": "2,000",
-    "image": "/images/cafe4.png",
-    "group": "Cold",
-    "low_image": "/images/resized/cafe4.png"
-  },
-  {
-    "id": 5,
-    "name": "name",
-    "price": "2,000",
-    "image": "/images/cafe5.png",
-    "group": "Cold",
-    "low_image": "/images/resized/cafe5.png"
-  },
-  {
-    "id": 6,
-    "name": "name",
-    "price": 300,
-    "image": "/images/cafe6.png",
-    "group": "Cold",
-    "low_image": "/images/resized/cafe6.png"
-  },
-  {
-    "id": 7,
-    "name": "name",
-    "price": 300,
-    "image": "/images/cafe7.png",
-    "group": "Cold",
-    "low_image": "/images/resized/cafe7.png"
-  },
-  {
-    "id": 8,
-    "name": "name",
-    "price": 300,
-    "image": "/images/cafe8.png",
-    "group": "Cold",
-    "low_image": "/images/resized/cafe8.png"
+    "name": "کۆفی میکس",
+    "price": "١،٥٠٠",
+    "image": "/images/cafe13.png",
+    "group": "Hot",
+    "low_image": "/images/resized/cafe13.png"
   },
   {
     "id": 9,
-    "name": "name",
-    "price": 300,
-    "image": "/images/cafe9.png",
-    "group": "Cold",
-    "low_image": "/images/resized/cafe9.png"
+    "name": "کاکاو",
+    "price": "١،٠٠٠",
+    "image": "/images/cafe7.png",
+    "group": "Hot",
+    "low_image": "/images/resized/cafe7.png"
   },
   {
     "id": 10,
-    "name": "name",
-    "price": 300,
-    "image": "/images/cafe10.png",
-    "group": "Cold",
-    "low_image": "/images/resized/cafe10.png"
+    "name": "کاپۆچینۆ",
+    "price": "١،٥٠٠",
+    "image": "/images/cafe9.png",
+    "group": "Hot",
+    "low_image": "/images/resized/cafe9.png"
   },
   {
     "id": 11,
-    "name": "name",
-    "price": "2,000",
+    "name": "مۆڵتی ڤیتامین",
+    "price": "١،٥٠٠",
+    "image": "/images/cafe8.png",
+    "group": "Hot",
+    "low_image": "/images/resized/cafe8.png"
+  },
+  {
+    "id": 13,
+    "name": "مۆکا",
+    "price": "٣،٠٠٠",
     "image": "/images/cafe11.png",
     "group": "Hot",
     "low_image": "/images/resized/cafe11.png"
   },
   {
     "id": 12,
-    "name": "name",
-    "price": "2,000",
-    "image": "/images/cafe12.png",
+    "name": "لاتێ",
+    "price": "٣،٠٠٠",
+    "image": "/images/cafe10.png",
     "group": "Hot",
-    "low_image": "/images/resized/cafe12.png"
+    "low_image": "/images/resized/cafe10.png"
   },
   {
-    "id": 13,
-    "name": "name",
-    "price": 300,
-    "image": "/images/cafe13.png",
-    "group": "Hot",
-    "low_image": "/images/resized/cafe13.png"
-  },
-  {
-    "id": 14,
-    "name": "name",
-    "price": "2,000",
+    "id": 15,
+    "name": "قاوەی چکلێتی شیرین",
+    "price": "١،٠٠٠",
     "image": "/images/cafe14.png",
     "group": "Hot",
     "low_image": "/images/resized/cafe14.png"
   },
   {
-    "id": 15,
-    "name": "name",
-    "price": "2,000",
-    "image": "/images/cafe15.png",
+    "id": 18,
+    "name": "قاوەی ١٠٠٪ ئەرەبیکا",
+    "price": "١،٠٠٠",
+    "image": "/images/cafe22.png",
     "group": "Hot",
-    "low_image": "/images/resized/cafe15.png"
-  },
-  {
-    "id": 16,
-    "name": "name",
-    "price": 300,
-    "image": "/images/cafe16.png",
-    "group": "Hot",
-    "low_image": "/images/resized/cafe16.png"
+    "low_image": "/images/resized/cafe22.png"
   },
   {
     "id": 17,
-    "name": "name",
-    "price": 300,
-    "image": "/images/cafe17.png",
-    "group": "Hot",
-    "low_image": "/images/resized/cafe17.png"
-  },
-  {
-    "id": 18,
-    "name": "name",
-    "price": 300,
-    "image": "/images/cafe18.png",
-    "group": "Hot",
-    "low_image": "/images/resized/cafe18.png"
-  },
-  {
-    "id": 19,
-    "name": "name",
-    "price": 300,
-    "image": "/images/cafe19.png",
-    "group": "Hot",
-    "low_image": "/images/resized/cafe19.png"
-  },
-  {
-    "id": 20,
-    "name": "name",
-    "price": 300,
-    "image": "/images/cafe20.png",
-    "group": "Hot",
-    "low_image": "/images/resized/cafe20.png"
-  },
-  {
-    "id": 21,
-    "name": "name",
-    "price": 300,
+    "name": "قاوەی مامناوەند",
+    "price": "١،٠٠٠",
     "image": "/images/cafe21.png",
     "group": "Hot",
     "low_image": "/images/resized/cafe21.png"
   },
   {
-    "id": 22,
-    "name": "name",
-    "price": 300,
-    "image": "/images/cafe22.png",
+    "id": 5,
+    "name": "قاوەی قەزوان",
+    "price": "١،٠٠٠",
+    "image": "/images/cafe1.png",
     "group": "Hot",
-    "low_image": "/images/resized/cafe22.png"
+    "low_image": "/images/resized/cafe1.png"
+  },
+  {
+    "id": 4,
+    "name": "قاوەی فستق",
+    "price": "١،٠٠٠",
+    "image": "/images/cafe23.png",
+    "group": "Hot",
+    "low_image": "/images/resized/cafe23.png"
+  },
+  {
+    "id": 6,
+    "name": "قاوەی بندوق",
+    "price": "١،٠٠٠",
+    "image": "/images/cafe4.png",
+    "group": "Hot",
+    "low_image": "/images/resized/cafe4.png"
+  },
+  {
+    "id": 8,
+    "name": "قاوەی ئیسپریسۆ سنگڵ",
+    "price": "١،٥٠٠",
+    "image": "/images/cafe6.png",
+    "group": "Hot",
+    "low_image": "/images/resized/cafe6.png"
+  },
+  {
+    "id": 21,
+    "name": "شیر",
+    "price": "١،٠٠٠",
+    "image": "/images/cafe15.png",
+    "group": "Hot",
+    "low_image": "/images/resized/cafe15.png"
+  },
+  {
+    "id": 3,
+    "name": "شوکولاتەی دارک بە گوێزەوە",
+    "price": "٢،٠٠٠",
+    "image": "/images/cafe20.png",
+    "group": "Hot",
+    "low_image": "/images/resized/cafe20.png"
+  },
+  {
+    "id": 7,
+    "name": "شوکولاتەی پریمیۆم",
+    "price": "١،٥٠٠",
+    "image": "/images/cafe5.png",
+    "group": "Hot",
+    "low_image": "/images/resized/cafe5.png"
+  },
+  {
+    "id": 14,
+    "name": "شوکولاتەی ماسالا",
+    "price": "١،٥٠٠",
+    "image": "/images/cafe12.png",
+    "group": "Hot",
+    "low_image": "/images/resized/cafe12.png"
+  },
+  {
+    "id": 16,
+    "name": "شوکولاتەی دارک بە گوێز و جەوز هندوو پسکیتەوە",
+    "price": "٢،٥٠٠",
+    "image": "/images/cafe18.png",
+    "group": "Hot",
+    "low_image": "/images/resized/cafe18.png"
+  },
+  {
+    "id": 2,
+    "name": "شوکولاتەی دارک",
+    "price": "١،٥٠٠",
+    "image": "/images/cafe24.png",
+    "group": "Hot",
+    "low_image": "/images/resized/cafe24.png"
+  },
+  {
+    "id": 20,
+    "name": "شوکولاتەی ئۆریجیناڵ بە گوێزەوە",
+    "price": "٢،٠٠٠",
+    "image": "/images/cafe16.png",
+    "group": "Hot",
+    "low_image": "/images/resized/cafe16.png"
+  },
+  {
+    "id": 21,
+    "name": "شوکولاتەی ئۆریجیناڵ بە گوێز و پسکیت",
+    "price": "٢،٥٠٠",
+    "image": "/images/cafe17.png",
+    "group": "Hot",
+    "low_image": "/images/resized/cafe17.png"
+  },
+  {
+    "id": 19,
+    "name": "شوکولاتەی ئۆرجیناڵ",
+    "price": "١،٥٠٠",
+    "image": "/images/cafe19.png",
+    "group": "Hot",
+    "low_image": "/images/resized/cafe19.png"
   }
 ]

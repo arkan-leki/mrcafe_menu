@@ -14,6 +14,7 @@ const ItemsContextProvider = (props) => {
             .then(response => response.json())
             .then(data => {
                 console.log(data);
+                data.sort((a, b) => a.name.localeCompare(b.name));
                 setItems(data.filter((sale) => sale.group === 'Hot'))
                 setItemsTemp(data)
                 setGroups(Array.from(new Set(data.map(item => item.group))))

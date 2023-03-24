@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaInstagram, FaInstagramSquare, FaSnapchat, FaTiktok } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaSnapchat, FaTiktok } from 'react-icons/fa';
 
 const SocialBar = () => {
   return (
