@@ -4,8 +4,6 @@ import { FaMapMarkerAlt } from 'react-icons/fa';
 import ItemsContextProvider from "./context/ItemsContext";
 import BottomNav from './components/BottomNav';
 import SocialBar from './components/SocialBar';
-import "react-tooltip/dist/react-tooltip.css";
-import { Tooltip as ReactTooltip } from "react-tooltip";
 
 function App() {
 
@@ -29,11 +27,6 @@ function App() {
               </div>
               <a href='https://vm.tiktok.com/ZMYU2QNEs/' className="flex items-center cursor-pointer" id="app-title">
                 <FaMapMarkerAlt color='white' size={25} />
-                <ReactTooltip
-                  anchorId="app-title"
-                  place="bottom"
-                  content="کەلار، ناوبازر تەنیشت مۆتەخانەی ئەڵوەن"
-                />
               </a>
             </div>
           </div>
