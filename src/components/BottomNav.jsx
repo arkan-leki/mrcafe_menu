@@ -10,7 +10,7 @@ import Cold_alt from '../images/coldalt.png';
 const BottomNav = () => {
     const { groups, setItemsGroup } = useContext(ItemsContext)
 
-    const [activeNavItem, setActiveNavItem] = useState('Hot');
+    const [activeNavItem, setActiveNavItem] = useState('Cold');
 
     const handleItemClick = (item) => {
         setActiveNavItem(item);
