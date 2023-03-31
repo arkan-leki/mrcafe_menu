@@ -15,7 +15,7 @@ const ItemsContextProvider = (props) => {
             .then(data => {
                 console.log(data);
                 data.sort((a, b) => a.name.localeCompare(b.name));
-                setItems(data.filter((sale) => sale.group === 'Hot'))
+                setItems(data.filter((sale) => sale.group === 'Cold'))
                 setItemsTemp(data)
                 setGroups(Array.from(new Set(data.map(item => item.group))))
                 // Do something with the retrieved data

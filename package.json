@@ -2,6 +2,7 @@
   "private": true,
   "name": "mr-cafe-menu",
   "version": "1.0.0",
+  "homepage": "http://www.mrcafeiraq.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
